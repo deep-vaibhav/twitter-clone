@@ -12,6 +12,18 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+
+    .footer_icon {
+      padding: 10px;
+
+      &:hover {
+        background-color: #e8f5fe;
+        border-radius: 30px;
+        color: var(--twitter-color);
+        transition: color 100ms ease-out;
+        cursor: pointer;
+      }
+    }
   }
   .post_badge {
     font-size: 14px !important;

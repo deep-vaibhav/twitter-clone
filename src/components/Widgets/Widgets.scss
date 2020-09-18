@@ -1,5 +1,6 @@
 .widgets {
   flex: 0.3;
+  overflow-y: scroll;
 
   .widgets_input {
     display: flex;
@@ -33,4 +34,7 @@
       padding-bottom: 10px;
     }
   }
+}
+.widgets::-webkit-scrollbar {
+  display: none;
 }
